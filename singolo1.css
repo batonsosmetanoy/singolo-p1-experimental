@@ -83,7 +83,7 @@ a:active {
 }
 
 
-/*----------------SECTION SLIDER----------------*/
+/*----------------ASIDE.SLIDER----------------*/
 
 .slider-block {
   padding-bottom: 12px;
@@ -109,7 +109,7 @@ a:active {
   transform: scale(-1, -1);
 }
 
-/*----------------SECTION SERVICES----------------*/
+/*----------------MAIN.SERVICES----------------*/
 
 .services {
   padding-top: 60px;
@@ -160,7 +160,6 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  /* border: 1px solid blue; */
 }
 
 .service_unit {
@@ -173,12 +172,12 @@ h2 {
   align-self: flex-start;
   margin-right: auto;
   background-color: #f2f2f2;
-  /* border: 1px solid black; */
 }
 
 .service_unit_text {
-  /* border: 1px solid red; */
   width: 220px;
+  max-height: 106px;
+  overflow: hidden;
 }
 
 .service_unit h2 {
