@@ -42,7 +42,7 @@ a:active {
 
 .header-content {
   display: flex;
-  padding-top: 25px;
+  padding-top: 23px;
   padding-bottom: 16px; /* because of border-bottom */
   align-items: baseline;
   text-transform: uppercase;
