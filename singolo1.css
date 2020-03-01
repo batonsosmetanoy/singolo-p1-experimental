@@ -79,9 +79,7 @@ a:active {
   left: -16px;
   bottom: 3px;
   color: #666d89;
-
 }
-
 
 /*----------------ASIDE.SLIDER----------------*/
 
@@ -101,12 +99,12 @@ a:active {
   transform: scale(1, -1);
 }
 
-.chevron:hover {
-  filter: brightness(0.5);
-}
-
 .chevron:last-child {
   transform: scale(-1, -1);
+}
+
+.chevron:hover {
+  filter: brightness(0.5);
 }
 
 /*----------------MAIN.SERVICES----------------*/
