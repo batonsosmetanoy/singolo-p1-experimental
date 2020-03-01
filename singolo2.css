@@ -88,8 +88,8 @@ h2 {
 
 .about-us {
   padding-top: 60px;
-  padding-bottom: 48px;
-
+  padding-bottom: 68px;
+  border-bottom: 6px solid #ffffff;
 }
 
 .about-us .title_description {
@@ -133,4 +133,12 @@ h3 {
 
 .socials a {
   margin-right: 2px;
+
+  filter: invert(45%) sepia(9%)
+  saturate(1139%) hue-rotate(191deg)
+  brightness(91%) contrast(84%);
+}
+
+.socials a:hover {
+  filter: brightness(0.5);
 }
