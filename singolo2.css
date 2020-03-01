@@ -1,0 +1,136 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0px auto;
+  max-width: 100%;
+
+  font-size: 1.6rem;
+  font-family: 'Lato', Verdana, sans-serif;
+  text-align: justify;
+  
+  color: #767e9e;
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: auto;
+}
+
+/*----------------PORTFOLIO----------------*/
+
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 64px;
+
+  background-color: #2d303a;
+  border-bottom: 6px solid #323746;
+}
+
+.title_name,
+.service_name {
+  font-weight: 900;
+  color: #666d89;
+}
+
+h2 {
+  margin: auto;
+  font-size: 30px;
+}
+
+.tags {
+  margin: -8px auto 20px;
+}
+
+.tags a {
+  display: inline-block;
+  padding: 0px 7px;
+  margin: 0px 2px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.008em;
+
+  border: 1px solid;
+  border-radius: 5px;
+
+  text-decoration: none;
+  color: #666d89;
+}
+
+.tags li:hover,
+.tags a:hover {
+  color: white;
+}
+
+.title_description {
+  margin-top: 20px;
+
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+.samples-list {
+  height: 604px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+/*----------------ABOUT US----------------*/
+
+.about-us {
+  padding-top: 60px;
+  padding-bottom: 48px;
+
+}
+
+.about-us .title_description {
+  margin-top: 19px;
+  letter-spacing: -0.21px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-top: 45px;
+}
+
+.card-unit {
+  width: 300px;
+  max-height: 442px;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 18px;
+
+  font-weight: 900;
+  color: #666d89;
+}
+
+.card-unit_name {
+  margin-bottom: -2px;
+}
+
+.card-unit_description {
+  margin-bottom: 21px;
+
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.socials a {
+  margin-right: 2px;
+}
