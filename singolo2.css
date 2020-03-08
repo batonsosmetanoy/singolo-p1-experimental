@@ -84,6 +84,10 @@ h2 {
   align-content: space-between;
 }
 
+.sample-unit:nth-child(n+13) {
+  display: none;
+}
+
 /*----------------ABOUT US----------------*/
 
 .about-us {
@@ -122,9 +126,15 @@ h3 {
 
 .card-unit_name {
   margin-bottom: -2px;
+  padding-bottom: 5px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-unit_description {
+  margin-top: 7px;
   margin-bottom: 21px;
 
   font-size: 12px;
