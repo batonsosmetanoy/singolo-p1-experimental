@@ -1,0 +1,193 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0px auto;
+  max-width: 100%;
+
+  font-size: 1.6rem;
+  font-family: 'Lato', Verdana, sans-serif;
+  text-align: justify;
+  
+  color: #767e9e;
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*----------------GET A QUOTE----------------*/
+
+.get-a-quote {
+  padding-top: 60px;
+  padding-bottom: 0px;
+
+  color: #f0d8d9;
+  background-color: #f06c64;
+}
+
+.title_name {
+  font-weight: 900;
+}
+
+h2 {
+  margin: auto;
+  font-size: 30px;
+}
+
+.title_description {
+  margin-top: 20px;
+
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-top: 43px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 619px;
+
+  font-size: 12px;
+  line-height: 22px;
+  color: #f06c64;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 11px 14px;
+  margin-bottom: 17px;
+
+  background-color: #d6564f;
+  border: 1px solid #d6564f;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: #f06c64;
+  opacity: 1; /* Firefox */
+}
+
+.contact-form .button {
+  font-size: 18px;
+  line-height: 18px;
+
+  font-weight: 900;
+  color: #f0d8d9;
+  background-color: #a7443f;
+}
+
+.contact-form .button:hover {
+  background-color: #d6564f;
+  cursor: pointer;
+}
+
+.card-unit {
+  width: 300px;
+  max-height: 442px;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 18px;
+
+  font-weight: 900;
+}
+
+.card-unit_name {
+  margin-top: 0px;
+  margin-bottom: -2px;
+  padding-bottom: 5px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-unit_description {
+  margin-top: 7px;
+  margin-bottom: 21px;
+
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.get-a-quote .card-unit_description:last-child {
+  margin-top: 1px;
+}
+
+.card-unit_description a {
+  color: #f0d8d9;
+}
+
+.contact_icon {
+  padding-right: 9px;
+  filter: invert(98%) sepia(98%) saturate(385%) 
+  hue-rotate(247deg) brightness(100%) contrast(89%);
+}
+
+.contact_icon:first-child {
+  padding-left: 3px;
+}
+
+/*----------------FOOTER----------------*/
+
+.page-footer {
+  margin-top: -9px;
+  border-top: 6px solid #ea676b;
+
+  background-color: #2d303a;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  min-height: 76px;
+  align-items: center;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.copyright {
+  color: #666d89;
+}
+
+.socials {
+  margin-top: 8px;
+}
+
+.socials a {
+  margin-left: 3px;
+
+  filter: invert(45%) sepia(9%)
+  saturate(1139%) hue-rotate(191deg)
+  brightness(91%) contrast(84%);
+}
+
+.socials a:hover {
+  filter: invert(100%) sepia(100%) saturate(50%) 
+  hue-rotate(247deg) brightness(100%) contrast(89%)
+}
