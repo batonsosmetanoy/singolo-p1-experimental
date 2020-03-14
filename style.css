@@ -25,16 +25,20 @@ a {
 }
 
 a:hover {
-  color: #f06c64;
+  color: #faaaa5;
 }
 
-a:active {
-  color: orange;
+a.active {
+  color: #f06c64;
 }
 
 /*----------------HEADER----------------*/
 
 .page-header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  
   background-color: #2d303a;
   color: white;
   border-bottom: 6px solid #323746;
@@ -84,6 +88,7 @@ a:active {
 /*----------------ASIDE.SLIDER----------------*/
 
 .slider-block {
+  padding-top: 96px;
   padding-bottom: 12px;
   background-color: #f06c64;
   border-bottom: 6px solid #ea676b;

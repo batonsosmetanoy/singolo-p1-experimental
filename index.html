@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
+
   <header class="page-header">
     <div class="wrapper">
       <div class="header-content">
@@ -17,34 +18,34 @@
             <span class="logo_star">*</span>
         </h1>
         <nav class="main-menu">
-          <ul>
+          <ul id="menu">
             <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="#ourservices">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#aboutus">About</a></li>
+            <li><a href="#getaquote">Contact</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
 
-  <aside class="slider-block">
+  <aside id="home" class="slider-block">
     <div class="wrapper">
       <div class="slider">
         <div class="chevron">
-          <img src="./assets/img/chev.svg" alt="chevron icon">
+          <img src="./assets/img/slider/chev.svg" alt="chevron icon">
         </div>
-        <img src="./assets/img/iPhones600800.png" alt="iPhones">
+        <img src="./assets/img/slider/iPhones600800.png" alt="iPhones">
         <div class="chevron">
-          <img src="./assets/img/chev.svg" alt="chevron icon">
+          <img src="./assets/img/slider/chev.svg" alt="chevron icon">
         </div>
       </div>
     </div>
   </aside>
 
   <main class="main">
-    <section class="services">
+    <section id="ourservices" class="services">
       <div class="wrapper">
         <div class="block_title">
           <h2 class="block_name">Our Services</h2>
@@ -119,7 +120,7 @@
       </div>
     </section>
 
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
       <div class="wrapper">
         <div class="block_title">
           <h2 class="block_name">Portfolio</h2>
@@ -150,7 +151,7 @@
       </div>
     </section>
   
-    <section class="about-us">
+    <section id="aboutus" class="about-us">
       <div class="wrapper">
         <div class="block">
           <h2 class="block_name">About Us</h2>
@@ -206,7 +207,7 @@
       </div>
     </section>
   
-    <section class="get-a-quote">
+    <section id="getaquote" class="get-a-quote">
       <div class="wrapper">
         <div class="block">
           <h2 class="block_name">Get a Quote</h2>
@@ -249,5 +250,6 @@
       </div>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
